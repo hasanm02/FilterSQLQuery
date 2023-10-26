@@ -8,7 +8,7 @@ My organization is attempting to increase the security of their system. My respo
 
 <h2>Retrieve after hours failed login attempts</h2>
 
-<p align="center">
+
 After business hours (after 18:00), there was a possible security incident. All failed after-hours login attempts must be looked into.
 
 The SQL query I made to look for failed login attempts that happened outside business hours is shown in the following code.
@@ -22,7 +22,7 @@ This query restricts its results to failed login attempts that took place after 
   
   <h2>Retrieve login attempts on specific dates</h2>
 
-<p align="center">
+
 On 2022-05-09, a suspicious occurrence took place. It is necessary to look into any login activity that took place on 2022-05-09 or the day prior.
 
 The code that follows shows how I built a SQL query to search for login attempts that took place on particular dates.
@@ -36,7 +36,7 @@ This query finds all attempts to log in that took place on either 2022-05-09 or 
   
  <h2>Retrieve login attempts outside of Mexico</h2>
 
-<p align="center">
+
 It appears there is a problem with the login attempts that took place outside of Mexico after looking into the company's data on login attempts. These login attempts need to be looked into.
 
 The code that follows shows how I built a SQL query to look for login attempts outside of Mexico. 
@@ -50,7 +50,7 @@ The code that follows shows how I built a SQL query to look for login attempts o
   
    <h2>Retrieve employees in Marketing</h2>
 
-<p align="center">
+
 
 A few Marketing department employees' PCs need to be updated, according to my team. I need to find out which employee machines need updating in order to achieve this.
 
@@ -63,7 +63,7 @@ The code that follows shows how I built a SQL query to search for employee compu
   
    <h2>Retrieve employees in Finance or Sales</h2>
 
-<p align="center">
+
 
 Additionally, the equipment used by staff members in the sales and finance divisions needs to be upgraded. I can only receive personnel data from these two departments because I need a different security update.
 
@@ -77,7 +77,7 @@ All personnel in the sales and finance departments are returned by this query. I
   
    <h2>Retrieve all employees not in IT</h2>
 
-<p align="center">
+
 
 My group still needs to change the security settings for those who work outside the information technology division. I must first gather information on these employees before I can make the upgrade.
 
